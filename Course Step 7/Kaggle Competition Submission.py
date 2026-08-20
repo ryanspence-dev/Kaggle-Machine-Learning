@@ -64,9 +64,8 @@ output = pd.DataFrame({
     'Price': test_preds
 })
 
-output.to_csv('submission.csv', index=False)
-
-print("submission.csv created successfully.")
+# output.to_csv('submission.csv', index=False)
+# print("submission.csv created successfully.")
 
 # Initial submission to the House Prices Competition for Kaggle Learn Users.
 # Competition: https://www.kaggle.com/competitions/home-data-for-ml-course
